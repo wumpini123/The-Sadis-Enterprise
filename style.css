@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+
+.navbar-left img {
+    width: 150px;
+}
+.navbar-left h5{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-center ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    font-size: 25px;
+   
+}
+
+.navbar-center ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-right img{
+    width: 90px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    font-size: 20px;   
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #fff;
+    font-size: 60px;
+}
+.iphone{
+    border: solid 2px black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 30%;
+    
+
+}
+.samsung{
+    margin-left: 40%;
+    border: solid 2px black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 30%;
+    padding: 0px;
+
+}
+.iphone{
+    shape-image-threshold: inherit;
+}
