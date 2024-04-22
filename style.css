@@ -12,6 +12,24 @@
     padding: 20px 40px;
 }
 
+.search-bar{
+    text-align: right;
+}
+.search-bar input[type="text"]{
+    padding: 20px 30px;
+    width: 500px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.search-bar span{
+    font-size: 25px;
+}
+.search-bar img {
+    width: 30px;
+    margin-left: -50px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
 
 .navbar-left img {
     width: 150px;
@@ -37,6 +55,13 @@
 }
 .navbar-right img{
     width: 90px;
+}
+
+.big{
+    border: solid 1px none;
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
 }
 .content{
     width: 1200px;
@@ -79,12 +104,12 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-left: 30%;
+    margin-left: 10%;
     
 
 }
 .samsung{
-    margin-left: 40%;
+    margin-left: 10%;
     border: solid 2px black;
     border-radius: 50%;
     width: 150px;
@@ -95,4 +120,208 @@
 }
 .iphone{
     shape-image-threshold: inherit;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 180px;
+}
+
+.footer-so ul li {
+    display: inline-flex;
+    
+}
+.footer-so ul li a{
+    text-decoration: none;
+    margin-left: -50px;
+}
+
+.footer-so ul li a img{
+    width: 50px;
+    margin-right: 45px;
+    border-radius: 50%;
+    
+}
+
+.sam-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.sam-card{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.sam-h{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.sam-text ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.sam-img img{
+    width: 80%;
+    height: 100%;
+}
+
+.find-link{
+    width: 200px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    background: blue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.main-container h1{
+    margin-top: 80px;
+    margin-left: 150px;
+    font-size: 60px;
+}
+
+.main-container p{
+    margin-left: 150px;
+    margin-top: 15px;
+    font-size: 25px;  
+
+}
+
+.brand-section {
+    display: flex;
+    justify-content: space-between;
+}
+.brands{
+    margin-left: 150px;
+    padding-top: 50px;
+}
+
+.brands ul li {
+    margin-bottom: 50px;
+    list-style: none;
+}
+.brand-img img{
+    width: 100%;
+    height: 100%;
+}
+.brands ul li a{
+    display: inline-flex;
+    font-size: 28px;
+    text-decoration: none;
+    color: #777;
+}
+
+.brands ul li a img{
+    width: 55px;
+    margin-right: 20px;
+}
+
+.brand-img{
+    width: 600px;
+    height: 500px;
+    border: none;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+.cart-header{
+    font-size: 55px;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.cart-link{
+    text-align: right;
+    margin-top: 50px;
+}
+
+.cart-h{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.cart-h h1 {
+    font-size: 40px;
+}
+
+.cart-h p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.cart-btn{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.cart-btn button{
+    width: 400px;
+    padding: 25px 20px;
+    margin-right: 30px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+.cart-btn .shop{
+    border: 3px solid blue;
+    background: #fff;
+}
+
+.cart-btn .sign {
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
+
+.contact-h {
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.contact-search{
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.contact-search input[type="text"]{
+    width: 450px;
+    padding: 20px 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.grid-contact{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.grid-item{
+    width: 300px;
+    height: 100px;
+    background-color: #d3d2d2;
+    text-align: center;
+}
+
+.contact-info h3{
+    margin-left: 90px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.grid-item img{
+    margin: 20px 0 10px 0;
+    width: 40px;
+}
+.grid-item h5{
+    font-size: 18px;
+    font-weight: 500;
 }
